@@ -1,0 +1,36 @@
+// Specific Chat Mocks
+
+export const specificChatsMock = {
+  specificChats: [
+    {
+      contact: 'John',
+      messages: [
+        {
+          sender: 'John',
+          content: 'Hey, how are you?',
+          time: '10:00 AM',
+        },
+        {
+          sender: 'You',
+          content: "I'm good, thanks! How about you?",
+          time: '10:05 AM',
+        },
+      ],
+    },
+    {
+      contact: 'Maria',
+      messages: [
+        {
+          sender: 'Maria',
+          content: 'Do you want to go out tonight?',
+          time: 'yesterday',
+        },
+        {
+          sender: 'You',
+          content: 'Sure, where do you want to go?',
+          time: 'yesterday',
+        },
+      ],
+    },
+  ],
+};
